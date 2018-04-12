@@ -1,0 +1,314 @@
+html{
+  font-size: 16px;
+}
+
+.sitecontainer{
+  width: 100%;
+}
+.navbarcontainer{
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.nav1,
+.nav2,
+.nav3{
+  margin-right: 1rem;
+}
+.navspan{
+  font-size: 1.2rem;
+}
+.logo{
+}
+.name{
+  font-size: 1.5rem;
+}
+.logo-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+  height: 2rem;
+}
+.bannercontainer{
+  display: flex;
+  background-color: lightgrey;
+}
+.bannerimagecontainer{
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+.bannerimage{
+max-height: 100%;
+max-width: 96.25%;
+}
+.bannertitles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titlespan{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.title1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title2{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.title3{
+  font-size: 1rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.middle1container{
+  display: flex;
+}
+
+.practicecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin: 2rem 1.5rem
+
+}
+.informationimgcontainer{
+
+}
+.informationimg{
+  max-height: 100%;
+  max-width: 100%;
+}
+.info1{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+.info2{
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.campusgallery{
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  width: 40%;
+}
+
+.gallery1,
+.gallery2,
+.gallery3{
+  display: flex;
+  justify-content: space-around;
+}
+.orientationimgcontainer{
+  width: 35%;
+  height:auto;
+  padding-top: 0;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.campusimgcontainer,
+.guestimgcontainer{
+  width: 35%;
+  height:auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+.gallery1{
+  margin-top: 2rem;
+}
+
+.gallery3{
+  background-color: lightgrey;
+  margin-bottom: 2rem;
+}
+.orientationimg,
+.campusimg,
+.guestimg{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.orientationconatainer,
+.campuscontainer,
+.guestcontainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.orientationspan,
+.campusspan,
+.guestspan{
+  margin: 0.5rem 0;
+}
+
+/* middle section 2 styling */
+
+.middle2container{
+  background-color: lightgrey;
+}
+.learningtitle{
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.classofferedgallery{
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.topclassgallery,
+.bottomclassgallery{
+  display: flex;
+}
+.bottomclassgallery{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.classtwocontainer,
+.classfivecontainer{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.courseimg{
+  max-width: 100%;
+  height: auto;
+}
+.coursecontainers{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.classtop{
+  margin-top: 1rem;
+}
+.classmiddle{
+  margin-top: 0.5rem;
+}
+.classbottom{
+  margin-top: 0.5rem;
+  margin-bottom:1.5rem;
+}
+
+.middle2container span{
+  margin-left: 1rem;
+}
+
+/* bottom section styling */
+
+.bottomcontent{
+display: flex;
+margin-top: 2rem;
+margin-left: 1.5rem;
+margin-bottom: 2rem;
+}
+.exhibittitle{
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+.leftvideocontainer{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
+}
+.prototypegallery{
+  width: 40%;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.prototypecontainer,
+.newyorkcontainer{
+  display: flex;
+}
+.researchcontainer,
+.fismaconatainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 65%;
+}
+.video{
+  max-width: 100%;
+}
+.prototypecontainer{
+  background-color: lightgrey;
+}
+.prototypeimgcontainer,
+.newyorkimgcontainer{
+  width: 35%;
+  height: auto;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.prototypeimg{
+  max-width: 100%;
+  max-height: 100%;
+}
+.newyorkimg{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fismaspan2,
+.research2{
+  margin-top: 1rem;
+}
+.video1{
+  margin-top: 1.5rem;
+}
+.video2{
+  margin-top: 0.5rem;
+}
+
+/* footer styling */
+
+.footercontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.copyright{
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+.terms{
+  margin-top: 1rem;
+  display: flex;
+  margin-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+.privacyspan{
+  margin-left: 0.5rem;
+}
