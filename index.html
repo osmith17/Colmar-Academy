@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Colmar Academy</title>
   <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
   <link href="resources/css/style.css" type="text/css" rel="stylesheet">
@@ -20,9 +21,17 @@
       <span class="navspan nav3">For companies</span>
       <span class="navspan nav4">Sign in</span>
     </div>
-    <!-- end of nav bar -->
-
+<!-- mobile navbar -->
+  <div class="mobilenavbar">
+    <img class="logo1" src="resources/images/ic-logo.svg" alt="">
+    <img class="logo2" src="resources/images/ic-on-campus.svg" alt="">
+    <img class="logo3" src="resources/images/ic-online.svg" alt="">
+    <img class="logo4" src="resources/images/ic-login.svg" alt="">
   </div>
+
+<!-- end of mobile navbar -->
+    </div>
+    <!-- end of nav bar -->
   <!-- header/banner -->
   <div class="sitecontainer bannercontainer">
     <div class="bannerimagecontainer">
@@ -54,7 +63,9 @@
       <div class="gallery1">
         <div class="orientationimgcontainer">
           <img class="orientationimg" src="resources/images/information-orientation.jpg" alt="">
+          <img class="mobileorientationimg" src="resources/images/information-orientation-mobile.jpg" alt="">
         </div>
+
         <div class="orientationconatainer">
           <span class="orientationspan orientspan1">Orientation date</span>
           <span class="orientationspan orientspan2">Tue 10/11 & Wed 10/12: 8am-3pm</span>
@@ -64,6 +75,7 @@
       <div class="gallery2">
         <div class="campusimgcontainer">
           <img class="campusimg" src="resources/images/information-campus.jpg" alt="">
+          <img class="mobilecampusimg" src="resources/images/information-campus-mobile.jpg" alt="">
         </div>
         <div class="campuscontainer">
           <span class="campusspan campusspan1">Our campus</span>
@@ -74,6 +86,7 @@
       <div class="gallery3">
         <div class="guestimgcontainer">
           <img class="guestimg" src="resources/images/information-guest-lecture.jpg" alt="">
+          <img class="mobileguestimg" src="resources/images/information-guest-lecture-mobile.jpg" alt="">
         </div>
         <div class="guestcontainer">
           <span class="guestspan guestspan1">Our guest lecture</span>
@@ -141,7 +154,15 @@
           <span class="classsixspan classsixbottom classbottom">Analytics, Content Marketing, <br> Mobile Marketing</span>
         </div>
       </div>
-
+    </div>
+    <!-- mobile classes gallery -->
+    <div class="mobileclassesoffered">
+      <span class="mobileclassspan softwarespan">Software</span>
+      <span class="mobileclassspan computerartspan">Computer art</span>
+      <span class="mobileclassspan designspan">Design</span>
+      <span class="mobileclassspan dataspan">Data</span>
+      <span class="mobileclassspan businessspan">Business</span>
+      <span class="mobileclassspan marketingspan">Marketing</span>
     </div>
   </div>
   <!-- end of middle section 2 -->
