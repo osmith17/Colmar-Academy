@@ -167,6 +167,7 @@ html{
 .info2{
   margin-bottom: 2rem;
   font-size: 1rem;
+  color: darkgrey;
 }
 
 .campusgallery{
@@ -375,6 +376,14 @@ html{
   margin-top: 1rem;
   font-weight: bold;
   font-size: 1.1rem;
+  width: 30%;
+  padding: 3px;
+  border-radius: 3px;
+  background-color:#2274A5;
+  color: #FFFFFF;
+}
+.classonetop{
+  width: 50%;
 }
 .classmiddle{
   margin-top: 0.5rem;
@@ -506,6 +515,7 @@ html{
 }
 .video2{
   margin-top: 0.5rem;
+  color: darkgrey;
 }
 
 @media only screen and (max-width:480px){
