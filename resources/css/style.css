@@ -1,6 +1,7 @@
 html{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  background-color: #E9F1F7;
 }
 /* navbar styling */
 .sitecontainer{
@@ -11,8 +12,8 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #6F58C9;
-  color: white;
+  background-color: #131B23;
+  color: #E9F1F7;
 }
 .navbar{
   display: flex;
@@ -60,7 +61,7 @@ html{
 /* banner styling */
 .bannercontainer{
   display: flex;
-  background-color: #B6B8D6;
+  background-color: #E7DFC6;
 }
 .bannerimagecontainer{
   width: 60%;
@@ -91,8 +92,8 @@ html{
 .title3{
   font-size: 1rem;
   text-align: center;
-  background-color: #6F58C9;
-  color: white;
+  background-color: #131B23;
+  color: #E9F1F7;
   padding: 0.5rem 0;
 }
 @media only screen and (max-width:480px){
@@ -129,7 +130,7 @@ html{
   .title3{
     font-size: 1rem;
     text-align: center;
-    background-color: #6F58C9;
+    background-color: #131B23;
     color: white;
     padding: 0.5rem 0;
     margin-top: 1.5rem;
@@ -198,11 +199,11 @@ html{
 }
 .gallery1{
   margin-top: 2rem;
-  background-color: #B6B8D6;
+  background-color: #E7DFC6;;
 }
 
 .gallery3{
-  background-color: #B6B8D6;
+  background-color: #E7DFC6;;
   margin-bottom: 2rem;
 }
 .orientationimg,
@@ -233,8 +234,8 @@ html{
   display: none;
 }
 .readmorespan{
-  background-color: #6F58C9;
-  color: white;
+  background-color: #2274A5;
+  color: #E9F1F7;
   padding: 0.5rem;
   border-radius: 2px;
 }
@@ -297,13 +298,13 @@ html{
 
   .gallery1{
     margin-top: 2rem;
-    background-color: white;
+    background-color: #E9F1F7;
   }
   .gallery2{
     margin-top: 4rem;
   }
   .gallery3{
-    background-color: white;
+    background-color: #E9F1F7;
     margin-bottom: 0;
     margin-top: 4rem;
   }
@@ -323,7 +324,7 @@ html{
 /* middle section 2 styling */
 
 .middle2container{
-  background-color: #B6B8D6;
+  background-color: #E7DFC6;;
 }
 .learningtitle{
   text-align: center;
@@ -359,7 +360,7 @@ html{
 .coursecontainers{
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #E9F1F7;
 }
 .classtop{
   margin-top: 1rem;
@@ -384,7 +385,7 @@ html{
     display: none;
   }
   .middle2container{
-    background-color: #B6B8D6;
+    background-color: #E7DFC6;
   }
   .learningtitle{
     text-align: center;
@@ -403,8 +404,8 @@ html{
     margin-bottom: 2rem;
   }
   .mobileclassspan{
-    background-color: #6F58C9;
-    color: white;
+    background-color: #131B23;
+    color: #E9F1F7;
     margin-top: 0.5rem;
     width: 88%;
     font-size: 1.5rem;
@@ -456,7 +457,7 @@ html{
   max-width: 100%;
 }
 .prototypecontainer{
-  background-color: #B6B8D6;
+  background-color: #E7DFC6;
 }
 .prototypeimgcontainer,
 .newyorkimgcontainer{
@@ -509,7 +510,8 @@ html{
   .footercontainer{
     display: flex;
     justify-content: space-between;
-    background-color: #BDEDE0;
+    background-color: #816C61;
+    color: #E9F1F7;
   }
   .copyright{
     margin-left: 1.5rem;
