@@ -11,7 +11,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: royalblue;
+  background-color: black;
   color: white;
 }
 .navbar{
@@ -92,7 +92,7 @@ html{
   font-size: 1rem;
   text-align: center;
   background-color: black;
-  color: white;
+  color: #FFDF00;
   padding: 0.5rem 0;
 }
 @media only screen and (max-width:480px){
