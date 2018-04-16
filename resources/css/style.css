@@ -1,7 +1,7 @@
 html{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  background-color: #E9F1F7;
+  background-color: #FFFFFF;
 }
 /* navbar styling */
 .sitecontainer{
@@ -13,7 +13,7 @@ html{
   justify-content: space-between;
   align-items: center;
   background-color: #131B23;
-  color: #E9F1F7;
+  color: #FFFFFF;
 }
 .navbar{
   display: flex;
@@ -87,13 +87,13 @@ html{
 
 .title2{
   font-size: 1.25rem;
-  font-weight: bold;
+
 }
 .title3{
   font-size: 1rem;
   text-align: center;
   background-color: #131B23;
-  color: #E9F1F7;
+  color: #FFFFFF;;
   padding: 0.5rem 0;
 }
 @media only screen and (max-width:480px){
@@ -131,7 +131,7 @@ html{
     font-size: 1rem;
     text-align: center;
     background-color: #131B23;
-    color: white;
+    color: #FFFFFF;
     padding: 0.5rem 0;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -228,6 +228,11 @@ html{
 .guestspan{
   margin: 0.5rem 0;
 }
+.orientspan1,
+.campusspan1,
+.guestspan1{
+  font-weight: bold;
+}
 .mobileguestimg,
 .mobilecampusimg,
 .mobileorientationimg{
@@ -235,9 +240,9 @@ html{
 }
 .readmorespan{
   background-color: #2274A5;
-  color: #E9F1F7;
+  color: #FFFFFF;
   padding: 0.5rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 @media only screen and (max-width:480px){
 
@@ -329,7 +334,8 @@ html{
 .learningtitle{
   text-align: center;
   padding-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 .classofferedgallery{
@@ -360,7 +366,7 @@ html{
 .coursecontainers{
   display: flex;
   flex-direction: column;
-  background-color: #E9F1F7;
+  background-color: #FFFFFF;
 }
 .classtop{
   margin-top: 1rem;
@@ -390,7 +396,6 @@ html{
   .learningtitle{
     text-align: center;
     padding-top: 2rem;
-    font-size: 2rem;
     margin-bottom: 0.5rem;
   }
   .mobileclassesoffered{
@@ -405,13 +410,14 @@ html{
   }
   .mobileclassspan{
     background-color: #131B23;
-    color: #E9F1F7;
+    color: #FFFFFF;;
     margin-top: 0.5rem;
     width: 88%;
     font-size: 1.5rem;
     padding-left: 1rem;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
+    border-radius: 5px;
   }
 }
 
@@ -426,7 +432,8 @@ html{
 .exhibittitle{
   text-align: center;
   padding-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 .leftvideocontainer{
   width: 60%;
@@ -511,7 +518,8 @@ html{
     display: flex;
     justify-content: space-between;
     background-color: #816C61;
-    color: #E9F1F7;
+    color: #FFFFFF;;
+    font-style: italic;
   }
   .copyright{
     margin-left: 1.5rem;
