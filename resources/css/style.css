@@ -11,7 +11,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #6F58C9;
   color: white;
 }
 .navbar{
@@ -60,7 +60,7 @@ html{
 /* banner styling */
 .bannercontainer{
   display: flex;
-  background-color: lightgrey;
+  background-color: #B6B8D6;
 }
 .bannerimagecontainer{
   width: 60%;
@@ -91,8 +91,8 @@ html{
 .title3{
   font-size: 1rem;
   text-align: center;
-  background-color: black;
-  color: #FFDF00;
+  background-color: #6F58C9;
+  color: white;
   padding: 0.5rem 0;
 }
 @media only screen and (max-width:480px){
@@ -129,7 +129,7 @@ html{
   .title3{
     font-size: 1rem;
     text-align: center;
-    background-color: black;
+    background-color: #6F58C9;
     color: white;
     padding: 0.5rem 0;
     margin-top: 1.5rem;
@@ -183,25 +183,26 @@ html{
 .orientationimgcontainer{
   width: 35%;
   height:auto;
-  padding-top: 0;
-  padding-bottom: 16px;
-  padding-left: 16px;
+  padding-top:1rem ;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .campusimgcontainer,
 .guestimgcontainer{
   width: 35%;
   height:auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 .gallery1{
   margin-top: 2rem;
+  background-color: #B6B8D6;
 }
 
 .gallery3{
-  background-color: lightgrey;
+  background-color: #B6B8D6;
   margin-bottom: 2rem;
 }
 .orientationimg,
@@ -231,7 +232,12 @@ html{
 .mobileorientationimg{
   display: none;
 }
-
+.readmorespan{
+  background-color: #6F58C9;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
 @media only screen and (max-width:480px){
 
   .practicecontainer{
@@ -291,6 +297,7 @@ html{
 
   .gallery1{
     margin-top: 2rem;
+    background-color: white;
   }
   .gallery2{
     margin-top: 4rem;
@@ -306,13 +313,17 @@ html{
     margin: 0.5rem 0;
     padding-left: 1rem;
   }
+  .readmorespan{
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+  }
 
 }
 
 /* middle section 2 styling */
 
 .middle2container{
-  background-color: lightgrey;
+  background-color: #B6B8D6;
 }
 .learningtitle{
   text-align: center;
@@ -373,7 +384,7 @@ html{
     display: none;
   }
   .middle2container{
-    background-color: white;
+    background-color: #B6B8D6;
   }
   .learningtitle{
     text-align: center;
@@ -392,7 +403,8 @@ html{
     margin-bottom: 2rem;
   }
   .mobileclassspan{
-    background-color: lightgrey;
+    background-color: #6F58C9;
+    color: white;
     margin-top: 0.5rem;
     width: 88%;
     font-size: 1.5rem;
@@ -444,7 +456,7 @@ html{
   max-width: 100%;
 }
 .prototypecontainer{
-  background-color: lightgrey;
+  background-color: #B6B8D6;
 }
 .prototypeimgcontainer,
 .newyorkimgcontainer{
@@ -497,6 +509,7 @@ html{
   .footercontainer{
     display: flex;
     justify-content: space-between;
+    background-color: #BDEDE0;
   }
   .copyright{
     margin-left: 1.5rem;
