@@ -29,18 +29,13 @@ html{
 .navspan{
   font-size: 1.2rem;
 }
-.logo{
-}
-
-.name{
-  font-size: 1.5rem;
-}
 .logo-name{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 1.5rem;
   height: 2rem;
+  font-size: 1.5rem;
 }
 .mobilenavbar{
   display: none;
@@ -77,8 +72,7 @@ html{
   justify-content: center;
 }
 .titlespan{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 .title1{
   font-size: 2.5rem;
@@ -87,14 +81,18 @@ html{
 
 .title2{
   font-size: 1.25rem;
+  font-weight: bold;
 
 }
 .title3{
-  font-size: 1rem;
+  font-size: 1.15rem;
   text-align: center;
   background-color: #131B23;
   color: #FFFFFF;;
   padding: 0.5rem 0;
+  width: 70%;
+  border-radius: 3px;
+
 }
 @media only screen and (max-width:480px){
 
@@ -117,22 +115,13 @@ html{
     margin-left: 1rem;
   }
   .title1{
-    font-size: 2.5rem;
-    font-weight: bold;
     margin-top: 2rem;
   }
 
   .title2{
-    font-size: 1.25rem;
-    font-weight: bold;
     margin-top: 2rem;
   }
   .title3{
-    font-size: 1rem;
-    text-align: center;
-    background-color: #131B23;
-    color: #FFFFFF;
-    padding: 0.5rem 0;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     width: 90%;
@@ -142,17 +131,12 @@ html{
 .middle1container{
   display: flex;
 }
-
 .practicecontainer{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 60%;
   margin: 2rem 1.5rem
-
-}
-.informationimgcontainer{
-
 }
 .informationimg{
   max-height: 100%;
@@ -169,43 +153,35 @@ html{
   font-size: 1rem;
   color: darkgrey;
 }
-
 .campusgallery{
   display: flex;
   flex-direction: column;
   justify-content:  center;
   width: 40%;
 }
-
-.gallery1,
-.gallery2,
-.gallery3{
-  display: flex;
-  justify-content: space-around;
-}
-.orientationimgcontainer{
-  width: 35%;
-  height:auto;
-  padding-top:1rem ;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-}
-
 .campusimgcontainer,
-.guestimgcontainer{
+.guestimgcontainer,
+.orientationimgcontainer{
   width: 35%;
   height:auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
+.gallery1,
+.gallery2,
+.gallery3{
+  display: flex;
+  justify-content: space-around;
+}
+.gallery1,
+.gallery3{
+  background-color: #E7DFC6;
+}
 .gallery1{
   margin-top: 2rem;
-  background-color: #E7DFC6;;
 }
-
 .gallery3{
-  background-color: #E7DFC6;;
   margin-bottom: 2rem;
 }
 .orientationimg,
@@ -214,7 +190,6 @@ html{
   max-width: 100%;
   max-height: 100%;
 }
-
 .orientationconatainer,
 .campuscontainer,
 .guestcontainer{
@@ -224,7 +199,6 @@ html{
   align-items: center;
   width: 65%;
 }
-
 .orientationspan,
 .campusspan,
 .guestspan{
@@ -259,36 +233,17 @@ html{
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
-  .gallery1,
-  .gallery2,
-  .gallery3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
   .orientationconatainer,
   .campuscontainer,
   .guestcontainer{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     width: 100%;
   }
+  .campusimgcontainer,
+  .guestimgcontainer,
   .orientationimgcontainer{
     width: 100%;
-    height:auto;
     padding-top: 0;
-    padding-bottom: 1rem;
-    padding-left: 0;
-  }
-
-  .campusimgcontainer,
-  .guestimgcontainer{
-    width: 100%;
-    height:auto;
-    padding-top: 0;
-    padding-bottom: 1rem;
     padding-left: 0;
   }
   .guestimg,
@@ -303,35 +258,33 @@ html{
     max-width: 100%;
     max-height: 100%;
   }
-
-  .gallery1{
-    margin-top: 2rem;
-    background-color: #E7DFC6;
+  .gallery1,
+  .gallery2,
+  .gallery3{
+    flex-direction: column;
+  }
+  .gallery2,
+  .gallery3{
+    margin-top: 4rem;
   }
   .gallery2{
-    margin-top: 4rem;
     background-color: #E7DFC6;
   }
   .gallery3{
-    background-color: #E7DFC6;
-    margin-bottom: 0;
     margin-top: 4rem;
   }
   .orientationspan,
   .campusspan,
   .guestspan{
-    margin: 0.5rem 0;
     padding-left: 1rem;
   }
   .readmorespan{
     margin-left: 1rem;
     padding-left: 0.5rem;
   }
-
 }
 
 /* middle section 2 styling */
-
 .middle2container{
   background-color: #E7DFC6;;
 }
@@ -341,7 +294,6 @@ html{
   font-size: 1.75rem;
   font-weight: bold;
 }
-
 .classofferedgallery{
   margin-top: 2rem;
   margin-left: 4.5rem;
@@ -394,7 +346,6 @@ html{
   margin-bottom:1.5rem;
   font-size: 0.85rem;
 }
-
 .middle2container span{
   margin-left: 1rem;
 }
@@ -410,8 +361,6 @@ html{
     background-color: #E7DFC6;
   }
   .learningtitle{
-    text-align: center;
-    padding-top: 2rem;
     margin-bottom: 0.5rem;
   }
   .mobileclassesoffered{
@@ -419,7 +368,6 @@ html{
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-
   }
   .marketingspan{
     margin-bottom: 2rem;
@@ -438,7 +386,6 @@ html{
 }
 
 /* bottom section styling */
-
 .bottomcontent{
   display: flex;
   margin-top: 2rem;
@@ -448,14 +395,13 @@ html{
 .exhibittitle{
   text-align: center;
   padding-top: 2rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .leftvideocontainer{
   width: 60%;
   display: flex;
   flex-direction: column;
-
 }
 .prototypegallery{
   width: 40%;
@@ -468,6 +414,9 @@ html{
 .newyorkcontainer{
   display: flex;
 }
+.prototypecontainer{
+  background-color: #E7DFC6;
+}
 .researchcontainer,
 .fismacontainer{
   display: flex;
@@ -479,9 +428,6 @@ html{
 .video{
   max-width: 100%;
 }
-.prototypecontainer{
-  background-color: #E7DFC6;
-}
 .prototypeimgcontainer,
 .newyorkimgcontainer{
   width: 35%;
@@ -490,10 +436,7 @@ html{
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-.prototypeimg{
-  max-width: 100%;
-  max-height: 100%;
-}
+.prototypeimg,
 .newyorkimg{
   max-width: 100%;
   max-height: 100%;
@@ -503,7 +446,6 @@ html{
   font-weight: bold;
   font-size: 1.1rem;
 }
-
 .fismaspan2,
 .research2{
   margin-top: 1rem;
@@ -519,7 +461,6 @@ html{
 }
 
 @media only screen and (max-width:480px){
-
   .videospan,
   .prototypegallery{
     display: none;
@@ -527,11 +468,7 @@ html{
   .leftvideocontainer{
     width: 100%;
   }
-  .exhibittitle{
-    font-size: 2rem;
-  }
   .bottomcontent{
-    display: flex;
     margin-top: 1rem;
     margin-left: 0;
     margin-bottom: 1.5rem;
