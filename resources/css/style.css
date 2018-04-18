@@ -29,6 +29,10 @@ html{
 .navspan{
   font-size: 1.2rem;
 }
+.navspan:hover{
+  color: gold;
+  cursor: pointer;
+}
 .logo-name{
   display: flex;
   justify-content: center;
@@ -40,7 +44,12 @@ html{
 .mobilenavbar{
   display: none;
 }
+@media only screen and (max-width:700px){
+  .navspan{
+    font-size: 1rem;
+  }
 
+}
 @media only screen and (max-width:480px){
   .logo-name,
   .navbar{
@@ -50,6 +59,13 @@ html{
     display: flex;
     justify-content: space-around;
     width: 100%;
+  }
+  svg{
+    padding: 0.5rem;
+  }
+  svg:hover{
+    background-color: #2274A5;
+    cursor: pointer;
   }
 }
 
@@ -91,7 +107,20 @@ html{
   color: #FFFFFF;;
   padding: 0.5rem 0;
   width: 70%;
-  border-radius: 3px;
+  border-radius: 7px;
+}
+.title3:hover{
+  background-color: #2274A5;
+  cursor: pointer;
+}
+@media only screen and (max-width:850px){
+
+.title1{
+  font-size: 1.8rem;
+}
+.title2{
+  font-size: 1rem;
+}
 
 }
 @media only screen and (max-width:480px){
@@ -116,10 +145,12 @@ html{
   }
   .title1{
     margin-top: 2rem;
+    font-size: 2.5rem;
   }
 
   .title2{
     margin-top: 2rem;
+    font-size: 1.25rem;
   }
   .title3{
     margin-top: 1.5rem;
@@ -216,10 +247,36 @@ html{
   display: none;
 }
 .readmorespan{
-  background-color: #2274A5;
+  background-color: #131B23;
   color: #FFFFFF;
   padding: 0.5rem;
   border-radius: 5px;
+}
+
+.readmorespan:hover{
+  background-color: #2274A5;
+  cursor: pointer;
+}
+@media only screen and (max-width:1000px){
+
+.orientspan2,
+.campusspan2,
+.guestspan2{
+  font-size: 0.7rem;
+}
+}
+@media only screen and (max-width:750px){
+  .orientspan2,
+  .campusspan2,
+  .guestspan2{
+    font-size: 0.6rem;
+  }
+  .orientspan1,
+  .campusspan1,
+  .guestspan1{
+    font-size: 0.8rem;
+  }
+
 }
 @media only screen and (max-width:480px){
 
@@ -277,6 +334,16 @@ html{
   .campusspan,
   .guestspan{
     padding-left: 1rem;
+  }
+  .orientspan1,
+  .campusspan1,
+  .guestspan1{
+    font-size: 1.2rem;
+  }
+  .orientspan2,
+  .campusspan2,
+  .guestspan2{
+    font-size: 1rem;
   }
   .readmorespan{
     margin-left: 1rem;
@@ -352,6 +419,18 @@ html{
 .mobileclassesoffered{
   display: none;
 }
+@media only screen and (max-width:750px){
+
+  .classtop{
+    font-size: 0.85rem;
+    width: 50%;
+  }
+  .classmiddle,
+  .classbottom{
+    font-size: 0.7rem;
+  }
+
+}
 
 @media only screen and (max-width:480px){
   .classofferedgallery{
@@ -382,6 +461,10 @@ html{
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     border-radius: 5px;
+  }
+  .mobileclassspan:hover{
+    background-color: #2274A5;
+    cursor: pointer;
   }
 }
 
